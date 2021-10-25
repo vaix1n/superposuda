@@ -1,5 +1,5 @@
 		$postdata = 
-		    json_encode(array(
+		    array(
 		        'apiKey' => 'QlnRWTTWw9lv3kjxy1A8byjUmBQedYqb',
 		        'site' => 'test',
 		        'order' => array(
@@ -24,7 +24,7 @@
 		        	
 		        )
 
-		    ));
+		    );
 
        $ch = curl_init('https://superposuda.retailcrm.ru/api/v5/orders/create'); 
 
